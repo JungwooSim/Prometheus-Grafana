@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: monitoring-jvmwas-demo
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: [ "health","prometheus", "metrics" ]
+  endpoint:
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+server:
+  port: 8080
