@@ -2,6 +2,16 @@
 
 <img src="/img/img-1.png" width="750px">
 
+### Grapana 설정
+
+**Grapana Login (default)**
+ID : admin
+PW : admin
+
+**Prometheus 설정**
+
+<img src="/img/img-2.png" width="750px">
+
 ### 다음..
 
 - Telegraf
